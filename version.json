@@ -1,7 +1,0 @@
-{
-  "_note": "Update manifest for the HiTo plugin. Generated at build time from version.template.json — edit the template, not this file.",
-  "version": "1.4.0",
-  "released": "2026-07-29",
-  "pageUrl": "https://github.com/Hishwaia/HiTo-update.git",
-  "requires": "Civil 3D 2027 и новее"
-}

@@ -1,10 +1,10 @@
 {
   "_note": "Update manifest for the HiTo plugin. Edit this template, never the generated version.json. Version and date are filled by the build (target SyncVersionToPackaging in HiTo.csproj); installer name and SHA-256 by Tools\\Make-Release.ps1. Publish Output\\version.json — it is the only copy carrying a real checksum. Placeholder names are not spelled out here on purpose: substitution would replace them inside this note too.",
-  "version": "1.6.10",
+  "version": "1.7.0",
   "released": "2026-08-11",
   "pageUrl": "https://github.com/Hishwaia/HiTo-update",
   "requires": "Civil 3D 2027 и новее",
   "minSeries": "R26.0",
-  "installer": "HiTo Setup v1.6.10.exe",
-  "sha256": "0a2bedc09a9c47249d54fbb8bf429bbe7742f18035ad711b13268ee6ef641f43"
+  "installer": "HiTo Setup v1.7.0.exe",
+  "sha256": "b3b0539804ec96de52e440300e2c38489be79be25ef22585ff72dc2c603e7924"
 }

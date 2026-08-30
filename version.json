@@ -1,12 +1,12 @@
 {
   "_note": "Update manifest for the HiTo plugin. Edit this template, never the generated version.json. Version and date are filled by the build (target SyncVersionToPackaging in HiTo.csproj); installer name and SHA-256 by Tools\\Make-Release.ps1. Publish Output\\version.json — it is the only copy carrying a real checksum. Placeholder names are not spelled out here on purpose: substitution would replace them inside this note too.",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "released": "2026-08-30",
   "pageUrl": "https://github.com/Hishwaia/HiTo-update",
   "requires": "Civil 3D 2027 и новее",
   "minSeries": "R26.0",
-  "installer": "HiTo Setup v1.9.0.exe",
-  "sha256": "002633d84035cc3b5405232edbde9b10f3b872b591ed703a3a0bbe1fd9e2f372",
+  "installer": "HiTo Setup v1.9.1.exe",
+  "sha256": "23e08234e713a41b5ef260e7193f1ae621feac4b4ce34c35516d0b275621255b",
   "notes": [
     "ИИ-ревью нормоконтроля: плагин сам читает лист и спрашивает модель о смысле — противоречиях в надписях, опечатках, пропусках. Кнопка в отчёте проверки, настройка в «Правилах нормоконтроля».",
     "Нормоконтроль сам находит наложения надписей, объекты поверх штампа и вылезшие за рамку.",

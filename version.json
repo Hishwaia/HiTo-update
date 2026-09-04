@@ -1,22 +1,23 @@
 {
   "_note": "Update manifest for the HiTo plugin. Edit this template, never the generated version.json. Version and date are filled by the build (target SyncVersionToPackaging in HiTo.csproj); installer name and SHA-256 by Tools\\Make-Release.ps1. Publish Output\\version.json — it is the only copy carrying a real checksum. Placeholder names are not spelled out here on purpose: substitution would replace them inside this note too.",
-  "version": "1.9.1",
-  "released": "2026-08-30",
+  "version": "1.9.2",
+  "released": "2026-09-04",
   "pageUrl": "https://github.com/Hishwaia/HiTo-update",
   "requires": "Civil 3D 2027 и новее",
   "minSeries": "R26.0",
-  "installer": "HiTo Setup v1.9.1.exe",
-  "sha256": "23e08234e713a41b5ef260e7193f1ae621feac4b4ce34c35516d0b275621255b",
+  "autoInstall": true,
+  "installer": "HiTo Setup v1.9.2.exe",
+  "sha256": "36f11feaa11734824160710bf061961dd7559828019ff8409f6070ea33d62b35",
   "notes": [
-    "ИИ-ревью нормоконтроля: плагин сам читает лист и спрашивает модель о смысле — противоречиях в надписях, опечатках, пропусках. Кнопка в отчёте проверки, настройка в «Правилах нормоконтроля».",
-    "Нормоконтроль сам находит наложения надписей, объекты поверх штампа и вылезшие за рамку.",
-    "Окно правил стало компактнее: описания перенесены в подсказки при наведении.",
+    "Калькулятор считает по выделению в чертеже сам: выделили объекты — сумма, среднее, минимум, максимум и количество уже в окне.",
+    "Область данных: числа из чертежа и набранные вручную в одном расчёте. Строку можно исключить галочкой или удалить, закреплённые строки сохраняются между сеансами.",
+    "Клик по строке подсвечивает её объект в чертеже, крестик удаляет строку и снимает с объекта выделение.",
     "Общие улучшения и исправление ошибок."
   ],
   "notesEn": [
-    "AI review of the standards check: the plugin reads the sheet itself and asks a model about meaning — contradicting labels, typos, omissions. Button in the report, setup in \"Standards rules\".",
-    "The standards check now finds overlapping labels, objects over the title block and objects sticking out of the frame on its own.",
-    "The rules window is more compact: descriptions moved into hover hints.",
+    "The calculator follows the drawing selection on its own: pick objects and the sum, average, minimum, maximum and count are already in the window.",
+    "Data area: numbers from the drawing and typed by hand in one calculation. A row can be excluded with a checkbox or deleted; pinned rows survive between sessions.",
+    "Clicking a row highlights its object in the drawing, the cross deletes the row and clears the object selection.",
     "General improvements and bug fixes."
   ]
 }

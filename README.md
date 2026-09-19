@@ -29,7 +29,7 @@
 SHA-256 установщика:
 
 ```
-8c1e717ba3143df1a52087fd41039cdd8160209346dee26b5b4be1918fc72a3a
+52ba1cf03dd2d068ea021e6dbfdb976dcf38aec2395307c942dcb4095c1623b7
 ```
 
 Проверить скачанный файл в PowerShell:

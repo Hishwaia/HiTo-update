@@ -7,7 +7,7 @@
   "minSeries": "R26.0",
   "autoInstall": true,
   "installer": "HiTo Setup v1.9.6.exe",
-  "sha256": "e3efa80d87f6df683ce1dd63b9549b6babfb7134fdb688a04b2502209bfd0fe9",
+  "sha256": "8c1e717ba3143df1a52087fd41039cdd8160209346dee26b5b4be1918fc72a3a",
   "notes": [
     "Общие улучшения и исправление ошибок."
   ],

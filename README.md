@@ -1,6 +1,6 @@
 
 
-https://github.com/user-attachments/assets/d7e9a985-cc54-41f3-8667-6976a92f69f6
+<video src="https://github.com/user-attachments/assets/d7e9a985-cc54-41f3-8667-6976a92f69f6" controls width="100%">
 
 
 # HiTo — таблицы, оси и оформление для AutoCAD и Civil 3D

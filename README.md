@@ -1,7 +1,5 @@
 
-
-<video src="https://github.com/user-attachments/assets/d7e9a985-cc54-41f3-8667-6976a92f69f6" controls width="100%">
-
+<video src="https://github.com/user-attachments/assets/7b7a49d6-0b21-46fb-bb52-08943ccfc2a0" controls width="100%"></video>
 
 # HiTo — таблицы, оси и оформление для AutoCAD и Civil 3D
 

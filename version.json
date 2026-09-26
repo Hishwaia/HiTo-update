@@ -1,17 +1,31 @@
 {
   "_note": "Update manifest for the HiTo plugin. Edit this template, never the generated version.json. Version and date are filled by the build (target SyncVersionToPackaging in HiTo.csproj); installer name and SHA-256 by Tools\\Make-Release.ps1. Publish Output\\version.json — it is the only copy carrying a real checksum. Placeholder names are not spelled out here on purpose: substitution would replace them inside this note too.",
-  "version": "1.9.7",
-  "released": "2026-09-22",
+  "version": "1.9.9",
+  "released": "2026-09-26",
   "pageUrl": "https://github.com/Hishwaia/HiTo-update",
   "requires": "Civil 3D 2027 и новее",
   "minSeries": "R26.0",
   "autoInstall": true,
-  "installer": "HiTo Setup v1.9.7.exe",
-  "sha256": "066d02dd4cf75b413017ba8e3d5ad7996245f8cc8baab603f4c64c1999f4b2c2",
+  "installer": "HiTo Setup v1.9.9.exe",
+  "sha256": "f13fe47e7a52e561b9b699afd1f40f2a436fa3f722a9ee2b665c97c8adcb19ed",
   "notes": [
+    "Нормоконтроль проверяет активный лист так, как он будет напечатан, — вместе с моделью в видовых экранах. ИИ-ревью точнее читает состав листа.",
+    "Сохранённые наборы можно править и без панели «Итоговая вставка»: точка на дискете показывает изменения, обновление — одним щелчком.",
+    "В списке типов видно, сколько элементов выбрано в каждом разделе. Превью таблиц в окне генератора стало чётким.",
+    "Выпадающие списки: анимированная стрелка, прокрутка без рывков, длинные названия с многоточием и полной подсказкой.",
+    "Окно возврата точек COGO переработано: группы со скрытыми точками и полностью видимые разделены, выбор нескольких групп — с Ctrl.",
+    "Диагностический пакет из «О приложении» сохраняется одним файлом .hitodiag. Обновлены значки ленты и анимации подсказок.",
+    "На странице загрузки появился видеогайд: разметка таблицы и вставка в чертёж.",
     "Общие улучшения и исправление ошибок."
   ],
   "notesEn": [
+    "The standards check now inspects the active layout as it will be plotted, including the model seen through viewports. AI review reads the sheet more accurately.",
+    "Saved sets can be edited without the Final insertion panel: a dot on the save button marks changes, updating takes one click.",
+    "The type list shows how many items are selected in each section. Table previews in the generator window are now sharp.",
+    "Drop-down lists: animated arrow, smooth scrolling, long names trimmed with an ellipsis and a full-name tooltip.",
+    "The COGO point restore window is redesigned: groups with hidden points and fully visible ones are separated, pick several groups with Ctrl.",
+    "The diagnostic package from About is saved as a single .hitodiag file. Ribbon icons and tooltip animations are updated.",
+    "The download page now has a video guide: marking up a table and inserting it into a drawing.",
     "General improvements and bug fixes."
   ]
 }

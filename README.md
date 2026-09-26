@@ -1,17 +1,18 @@
-
-<video src="https://github.com/user-attachments/assets/7b7a49d6-0b21-46fb-bb52-08943ccfc2a0" controls width="100%"></video>
-
 # HiTo — таблицы, оси и оформление для AutoCAD и Civil 3D
 
 Набор утилит, ускоряющих формирование исполнительной геодезической документации: таблицы-легенды
 из DWG-шаблона, сетки осей с нумерацией и размерными цепочками, обозначения проёмов,
 листы из заготовок, калькулятор и проверка оформления схем.
 
-**Версия 1.9.7** · выпущена 2026-09-22 · требуется Civil 3D 2027 и новее
+**Версия 1.9.9** · выпущена 2026-09-26 · требуется Civil 3D 2027 и новее
+
+## Как начать: разметка таблицы и вставка
+
+<video src="https://github.com/user-attachments/assets/7b7a49d6-0b21-46fb-bb52-08943ccfc2a0" controls width="100%"></video>
 
 ## Скачать
 
-**[HiTo Setup v1.9.7.exe](HiTo%20Setup%20v1.9.7.exe)**
+**[HiTo Setup v1.9.9.exe](HiTo%20Setup%20v1.9.9.exe)**
 
 ## Установка
 
@@ -32,13 +33,13 @@
 SHA-256 установщика:
 
 ```
-066d02dd4cf75b413017ba8e3d5ad7996245f8cc8baab603f4c64c1999f4b2c2
+f13fe47e7a52e561b9b699afd1f40f2a436fa3f722a9ee2b665c97c8adcb19ed
 ```
 
 Проверить скачанный файл в PowerShell:
 
 ```powershell
-Get-FileHash "HiTo Setup v1.9.7.exe" -Algorithm SHA256
+Get-FileHash "HiTo Setup v1.9.9.exe" -Algorithm SHA256
 ```
 
 Совпала — файл именно тот, что выпущен. Не совпала — не запускайте его и скачайте заново.
@@ -54,7 +55,7 @@ Get-FileHash "HiTo Setup v1.9.7.exe" -Algorithm SHA256
 
 | Файл | Зачем |
 | --- | --- |
-| `HiTo Setup v1.9.7.exe` | установщик плагина |
+| `HiTo Setup v1.9.9.exe` | установщик плагина |
 | `version.json` | манифест для кнопки «Проверить обновление» |
 | `README.md` | эта страница |
 

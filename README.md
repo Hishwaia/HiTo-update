@@ -33,7 +33,7 @@
 SHA-256 установщика:
 
 ```
-f13fe47e7a52e561b9b699afd1f40f2a436fa3f722a9ee2b665c97c8adcb19ed
+4d1bd98a9aa6ac393cefe7fe83310f9235225af8d1674eb8221abf223b23f407
 ```
 
 Проверить скачанный файл в PowerShell:

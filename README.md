@@ -8,7 +8,7 @@
 
 ## Как начать: разметка таблицы и вставка
 
-<video src="https://github.com/user-attachments/assets/7b7a49d6-0b21-46fb-bb52-08943ccfc2a0" controls width="100%"></video>
+<video src="https://github.com/user-attachments/assets/464a2044-ae35-4d55-a07c-140ffc45c65e" controls width="100%"></video>
 
 ## Скачать
 

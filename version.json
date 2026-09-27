@@ -7,25 +7,21 @@
   "minSeries": "R26.0",
   "autoInstall": true,
   "installer": "HiTo Setup v1.9.10.exe",
-  "sha256": "e6a9e2c0425cc2ab40915f415a91ff49f9944c71b61892db09e00fa9929d7702",
+  "sha256": "e15bfada5fed3da758b436ae9a6a32e3141110a6723ec0fcceea84990cf5802a",
   "notes": [
-    "Нормоконтроль проверяет активный лист так, как он будет напечатан, — вместе с моделью в видовых экранах. ИИ-ревью точнее читает состав листа.",
-    "Сохранённые наборы можно править и без панели «Итоговая вставка»: точка на дискете показывает изменения, обновление — одним щелчком.",
-    "В списке типов видно, сколько элементов выбрано в каждом разделе. Превью таблиц в окне генератора стало чётким.",
-    "Выпадающие списки: анимированная стрелка, прокрутка без рывков, длинные названия с многоточием и полной подсказкой.",
-    "Окно возврата точек COGO переработано: группы со скрытыми точками и полностью видимые разделены, выбор нескольких групп — с Ctrl.",
-    "Диагностический пакет из «О приложении» сохраняется одним файлом .hitodiag. Обновлены значки ленты и анимации подсказок.",
-    "На странице загрузки появился видеогайд: разметка таблицы и вставка в чертёж.",
+    "Новая команда «Обрыв»: линия обрыва с изломом или волнистая, одиночная или парная — для разрыва изображения. Размеры подстраиваются под высоту текста.",
+    "Предпросмотр при вставке сетки осей и промежуточной оси показывает ровно то, что будет построено: изломы, марки, размеры.",
+    "Правила нормоконтроля можно выгрузить в файл и загрузить на другом рабочем месте — кнопки в окне правил.",
+    "В меню правой кнопки у «Повторить вставку» и «Нормоконтроля» появились значки.",
+    "Значки ленты стали чётче на масштабах экрана 125 % и 175 %. Обновлён видеогайд на странице загрузки.",
     "Общие улучшения и исправление ошибок."
   ],
   "notesEn": [
-    "The standards check now inspects the active layout as it will be plotted, including the model seen through viewports. AI review reads the sheet more accurately.",
-    "Saved sets can be edited without the Final insertion panel: a dot on the save button marks changes, updating takes one click.",
-    "The type list shows how many items are selected in each section. Table previews in the generator window are now sharp.",
-    "Drop-down lists: animated arrow, smooth scrolling, long names trimmed with an ellipsis and a full-name tooltip.",
-    "The COGO point restore window is redesigned: groups with hidden points and fully visible ones are separated, pick several groups with Ctrl.",
-    "The diagnostic package from About is saved as a single .hitodiag file. Ribbon icons and tooltip animations are updated.",
-    "The download page now has a video guide: marking up a table and inserting it into a drawing.",
+    "New Break command: a zigzag or wavy break line, single or paired to split a view. Sizes follow the text height.",
+    "The preview while inserting an axis grid or an intermediate axis now shows exactly what will be built: breaks, markers, dimensions.",
+    "Standards check rules can be exported to a file and imported on another workstation, from the rules window.",
+    "In the right-click menu, Repeat insertion and Standards check now have icons.",
+    "Ribbon icons are sharper at 125% and 175% display scale. The video guide on the download page is updated.",
     "General improvements and bug fixes."
   ]
 }

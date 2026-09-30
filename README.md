@@ -8,7 +8,7 @@ DWG-шаблона, сетки осей с марками и размерным�
 
 ## Как начать: разметка таблицы и вставка
 
-<video src="https://github.com/user-attachments/assets/464a2044-ae35-4d55-a07c-140ffc45c65e" controls width="100%"></video>
+<video src="https://github.com/user-attachments/assets/155ac89f-1fa8-4a58-aa16-c984bf1d5c7d" controls width="100%"></video>
 
 ## Скачать
 

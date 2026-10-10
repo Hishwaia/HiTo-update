@@ -1,0 +1,21 @@
+{
+  "_note": "Update manifest for the HiTo plugin. Edit this template, never the generated version.json. Version and date are filled by the build (target SyncVersionToPackaging in HiTo.csproj); installer name and SHA-256 by Tools\\Make-Release.ps1. Publish Output\\version.json — it is the only copy carrying a real checksum. Placeholder names are not spelled out here on purpose: substitution would replace them inside this note too.",
+  "version": "2.1.3",
+  "released": "2026-10-10",
+  "pageUrl": "https://github.com/Hishwaia/HiTo-update",
+  "requires": "Civil 3D 2027 и новее",
+  "minSeries": "R26.0",
+  "autoInstall": true,
+  "installer": "HiTo Setup v2.1.3.exe",
+  "sha256": "b23e62c54e3e4eec11362052110e82092f0ab782ba4cb0a82ea69455019eb05e",
+  "notes": [
+    "Нормоконтроль: новое правило «Размеры с ручным значением». Показывает размеры, в которые число вписано вручную и расходится с измеренным. Это справка, а не ошибка; правило можно выключить.",
+    "Руководство пользователя: правило добавлено в таблицу правил нормоконтроля.",
+    "Общие улучшения и исправление ошибок."
+  ],
+  "notesEn": [
+    "Standards check: a new rule, “Dimensions with typed-in values”. It lists dimensions whose value was typed in by hand and differs from the measured one. A note, not an error; can be switched off.",
+    "User guide: the rule is added to the table of standards check rules.",
+    "General improvements and bug fixes."
+  ]
+}

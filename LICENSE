@@ -1,0 +1,294 @@
+Русский текст — ниже, английский — после него. / The English text follows the Russian one.
+
+ЛИЦЕНЗИЯ НА ПРОГРАММУ HiTo
+© 2026 Hishwaia. Все права защищены.
+Связь с Автором: hitoplugin@gmail.com · https://github.com/Hishwaia/HiTo-update
+
+Устанавливая или используя Программу, вы принимаете условия настоящей Лицензии.
+Если вы с ними не согласны — не устанавливайте и не используйте Программу.
+
+
+1. ОПРЕДЕЛЕНИЯ
+
+«Программа» — плагин HiTo для Autodesk Civil 3D: исполняемые файлы, библиотеки, шаблоны,
+ресурсы и сопроводительная документация в любом виде, включая обновления. «Автор» —
+правообладатель, указанный выше. «Вы» — лицо, использующее Программу, физическое или
+юридическое.
+
+
+2. ЧТО РАЗРЕШЕНО
+
+Автор предоставляет вам простую (неисключительную) лицензию на Программу — безвозмездно,
+для использования во всех странах мира, на весь срок охраны авторских прав на Программу.
+В рамках этой лицензии вы вправе:
+
+2.1. Использовать Программу как рабочий инструмент — бесплатно и без отдельного
+     разрешения, в том числе внутри коммерческой организации, для её собственных
+     проектов и выпускаемой документации.
+2.2. Копировать и передавать Программу бесплатно, в неизменном виде, вместе
+     с настоящей Лицензией и уведомлением об авторских правах.
+2.3. Включать оригинальный неизменённый установщик Программы в состав некоммерческих
+     программных комплексов при соблюдении пункта 2.2.
+
+
+3. ЛИЦЕНЗИЯ, А НЕ ПРОДАЖА
+
+Программа предоставляется в пользование, а не продаётся. Все права на неё, включая
+исходный и объектный код, оформление, наименование и графические материалы, принадлежат
+Автору. К вам не переходит никаких прав, кроме прямо перечисленных в разделе 2.
+
+
+4. КОММЕРЧЕСКОЕ ИСПОЛЬЗОВАНИЕ САМОЙ ПРОГРАММЫ
+
+Любая коммерческая эксплуатация Программы как таковой — продажа, перепродажа, аренда,
+прокат, платная установка, платная поддержка, распространение в составе платного
+продукта, отдельно или встроенно — допускается только с предварительного письменного
+разрешения Автора. Без такого разрешения запрещено взимать любую плату за копии
+Программы, её установку или использование.
+
+Разрешение, выданное Автором, действует только для прямо указанных в нём лица и объёма,
+не подлежит передаче и не распространяется на третьих лиц. Запросить разрешение можно
+по адресу, указанному в начале Лицензии.
+
+
+5. ЧТО ЗАПРЕЩЕНО
+
+Без предварительного письменного разрешения Автора запрещается:
+
+5.1. вскрывать технологию, декомпилировать, дизассемблировать, деобфусцировать Программу
+     или иным образом пытаться получить её исходный код, внутреннее устройство
+     или алгоритмы;
+5.2. изменять Программу, создавать на её основе производные произведения, встраивать
+     её код или его части в другое программное обеспечение;
+5.3. удалять, скрывать или изменять уведомления об авторских правах, наименование
+     Программы и сведения об Авторе;
+5.4. переупаковывать Программу — извлекать её из оригинального установщика и
+     распространять в ином виде, — распространять изменённые сборки, а также выдавать
+     Программу или её части за собственную разработку;
+5.5. обходить или отключать технические средства защиты, если они применены;
+5.6. использовать Программу, её код или документацию как материал для обучения
+     моделей машинного обучения и систем генерации кода.
+
+Ограничения пунктов 5.1 и 5.2 не применяются в той части, в какой соответствующие
+действия прямо разрешены императивными нормами применимого законодательства, и только
+для целей, этими нормами предусмотренных.
+
+
+6. ДАННЫЕ
+
+Программа не собирает сведения о вас, вашей работе и ваших чертежах и не передаёт их
+Автору. Программа обращается в сеть только в следующих случаях:
+
+6.1. Проверка обновлений — при нажатии кнопки проверки, а также автоматически при
+     запуске Civil 3D, если в окне «О приложении» включён пункт «Сообщать о новых
+     версиях» (включён по умолчанию). Запрашивается файл со сведениями о последней
+     выпущенной версии, размещённый на серверах GitHub. Сервер получает лишь то, без
+     чего сетевой запрос невозможен (в частности, ваш IP-адрес), и номер версии
+     Программы. Обработка этих сведений сервисом GitHub подчиняется его правилам.
+6.2. Загрузка обновления — только по вашей команде, с тех же серверов.
+6.3. ИИ-проверка листа — только при её запуске вами. Содержимое проверяемого листа —
+     надписи, названия листа и блоков, координаты и габариты объектов — отправляется
+     по адресу, выбранному вами в настройках. По умолчанию это локальный сервер на
+     вашем компьютере, и данные его не покидают. Если вы выбрали облачный сервис,
+     данные передаются этому сервису и обрабатываются по его условиям; Автор не
+     контролирует такую обработку и не отвечает за неё.
+
+Журналы работы и диагностический пакет создаются локально и передаются только вами
+и по вашему решению.
+
+
+7. ПРЕКРАЩЕНИЕ
+
+Настоящая Лицензия прекращается автоматически и без уведомления при нарушении вами
+любого её условия. После прекращения вы обязаны прекратить использование Программы
+и удалить все её копии. Разделы 3, 5, 8, 9 и 10 сохраняют силу и после прекращения
+Лицензии.
+
+
+8. ПОДЛИННОСТЬ КОПИЙ
+
+Автор заявляет, что, насколько ему известно, оригинальный неизменённый установщик,
+полученный непосредственно от Автора по адресу, указанному в начале Лицензии, не содержит
+вредоносного кода, вирусов и намеренно вредящей логики. Это заявление не является
+гарантией и не ограничивает действие раздела 9.
+
+Если Программа получена, установлена или распространена через любой сторонний источник,
+репак или встроенный комплекс, Автор не может подтвердить её безопасность, чистоту
+и целостность и не несёт ответственности за копии, изменённые или распространённые
+третьими лицами.
+
+
+9. ОТСУТСТВИЕ ГАРАНТИЙ И ОТВЕТСТВЕННОСТИ
+
+В МАКСИМАЛЬНОЙ СТЕПЕНИ, ДОПУСКАЕМОЙ ПРИМЕНИМЫМ ЗАКОНОДАТЕЛЬСТВОМ, ПРОГРАММА ПРЕДОСТАВЛЯЕТСЯ
+«КАК ЕСТЬ», БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ ГАРАНТИИ ТОВАРНОЙ
+ПРИГОДНОСТИ, ПРИГОДНОСТИ ДЛЯ КОНКРЕТНОЙ ЦЕЛИ, БЕЗОШИБОЧНОЙ ИЛИ БЕСПЕРЕБОЙНОЙ РАБОТЫ
+И НЕНАРУШЕНИЯ ПРАВ ТРЕТЬИХ ЛИЦ.
+
+В ТОЙ ЖЕ СТЕПЕНИ АВТОР НЕ НЕСЁТ ОТВЕТСТВЕННОСТИ ЗА ЛЮБЫЕ ПРЕТЕНЗИИ, УБЫТКИ ИЛИ ИНУЮ
+ОТВЕТСТВЕННОСТЬ — ДОГОВОРНУЮ, ДЕЛИКТНУЮ ИЛИ ИНУЮ, — ВОЗНИКШИЕ ИЗ ПРОГРАММЫ, ЕЁ
+ИСПОЛЬЗОВАНИЯ ИЛИ ИНЫХ ДЕЙСТВИЙ С НЕЙ, ВКЛЮЧАЯ ПОТЕРЮ ДАННЫХ, ПОВРЕЖДЕНИЕ ЧЕРТЕЖЕЙ,
+УПУЩЕННУЮ ВЫГОДУ И ПРОСТОЙ В РАБОТЕ. ВЫ ИСПОЛЬЗУЕТЕ ПРОГРАММУ НА СВОЙ РИСК И САМИ
+ПРОВЕРЯЕТЕ РЕЗУЛЬТАТЫ ЕЁ РАБОТЫ.
+
+Ничто в настоящей Лицензии не ограничивает прав, которые принадлежат вам в силу
+императивных норм применимого законодательства и не могут быть ограничены соглашением.
+
+
+10. ПРОЧЕЕ
+
+Настоящая Лицензия распространяется и на обновления Программы, если обновление не
+сопровождается иной редакцией Лицензии.
+
+Недействительность отдельного положения Лицензии не затрагивает остальных её положений.
+Настоящая Лицензия является полным соглашением между вами и Автором в отношении Программы.
+
+Autodesk, AutoCAD и Civil 3D — товарные знаки или зарегистрированные товарные знаки
+Autodesk, Inc. и/или её дочерних компаний. Автор не связан с Autodesk, Inc.
+
+==============================================================================
+
+HiTo SOFTWARE LICENSE
+© 2026 Hishwaia. All rights reserved.
+Contact the Author: hitoplugin@gmail.com · https://github.com/Hishwaia/HiTo-update
+
+By installing or using the Software you accept this License. If you do not agree
+with it, do not install and do not use the Software.
+
+
+1. DEFINITIONS
+
+"Software" means the HiTo plugin for Autodesk Civil 3D: executables, libraries, templates,
+resources and accompanying documentation in any form, including updates. "Author" means
+the copyright holder named above. "You" means the person or organization using the
+Software.
+
+
+2. WHAT IS PERMITTED
+
+The Author grants you a non-exclusive license to the Software — free of charge, for use
+worldwide, for the full term of copyright protection of the Software. Under this license
+you may:
+
+2.1. Use the Software as a working tool — free of charge and without separate
+     permission, including inside a commercial organization, for its own projects
+     and deliverables.
+2.2. Copy and pass on the Software free of charge, unmodified, together with
+     this License and the copyright notice.
+2.3. Include the original, unmodified installer of the Software in non-commercial
+     software packages, subject to clause 2.2.
+
+
+3. LICENSE, NOT A SALE
+
+The Software is licensed, not sold. All rights in it — including source and object code,
+design, name and graphics — remain with the Author. You receive no rights other than
+those expressly listed in section 2.
+
+
+4. COMMERCIAL EXPLOITATION OF THE SOFTWARE ITSELF
+
+Any commercial exploitation of the Software as such — sale, resale, lease, rental,
+paid installation, paid support, or distribution as part of a paid product, whether
+standalone or embedded — requires the prior written permission of the Author. Without
+such permission you may not charge any fee for copies of the Software, its installation
+or its use.
+
+Permission granted by the Author covers only the party and the scope expressly stated
+in it, is non-transferable and does not extend to third parties. Permission can be
+requested at the address given at the top of this License.
+
+
+5. WHAT IS PROHIBITED
+
+Without the prior written permission of the Author you may not:
+
+5.1. reverse engineer, decompile, disassemble or deobfuscate the Software, or otherwise
+     attempt to derive its source code, internal design or algorithms;
+5.2. modify the Software, create derivative works from it, or incorporate its code or
+     any part thereof into other software;
+5.3. remove, obscure or alter copyright notices, the name of the Software or information
+     about the Author;
+5.4. repackage the Software — extract it from the original installer and distribute it
+     in another form — distribute modified builds, or present the Software or any part
+     of it as your own work;
+5.5. circumvent or disable technical protection measures, where applied;
+5.6. use the Software, its code or its documentation as training material for machine
+     learning models or code-generating systems.
+
+Clauses 5.1 and 5.2 do not apply to the extent such acts are expressly permitted by
+mandatory provisions of applicable law, and then only for the purposes those provisions
+allow.
+
+
+6. DATA
+
+The Software collects no information about you, your work or your drawings and does not
+transmit it to the Author. The Software contacts the network only in the following cases:
+
+6.1. Update check — when you press the update check button, and also automatically when
+     Civil 3D starts, if "Tell me about new versions" is enabled in the "About" window
+     (enabled by default). A file describing the latest released version, hosted on
+     GitHub servers, is requested. The server receives only what a network request
+     cannot do without (in particular, your IP address), plus the Software version.
+     GitHub handles this information under its own terms.
+6.2. Downloading an update — only at your command, from the same servers.
+6.3. AI sheet review — only when you start it. The content of the reviewed sheet — text
+     labels, sheet and block names, coordinates and extents of objects — is sent to the
+     address you selected in the settings. By default this is a local server on your
+     computer, and the data does not leave it. If you selected a cloud service, the
+     data is transmitted to that service and processed under its terms; the Author does
+     not control such processing and is not responsible for it.
+
+Logs and the diagnostic package are created locally and are shared only by you and at
+your decision.
+
+
+7. TERMINATION
+
+This License terminates automatically and without notice if you breach any of its terms.
+Upon termination you must stop using the Software and delete all copies of it. Sections
+3, 5, 8, 9 and 10 survive termination.
+
+
+8. AUTHENTICITY OF COPIES
+
+The Author states that, to the best of the Author's knowledge, the original, unmodified
+installer obtained directly from the Author at the address given at the top of this
+License contains no malicious code, viruses or intentionally harmful logic. This
+statement is not a warranty and does not limit section 9.
+
+If the Software is obtained, installed or distributed through any third-party source,
+repack or embedded package, the Author cannot confirm its safety, cleanliness or
+integrity, and accepts no responsibility for copies modified or distributed by third
+parties.
+
+
+9. NO WARRANTY, NO LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED "AS IS",
+WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ERROR-FREE OR UNINTERRUPTED OPERATION,
+AND NON-INFRINGEMENT.
+
+TO THE SAME EXTENT, THE AUTHOR SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR ITS USE OR OTHER DEALINGS IN IT, INCLUDING LOSS OF DATA, DAMAGE TO
+DRAWINGS, LOSS OF PROFIT AND DOWNTIME. YOU USE THE SOFTWARE AT YOUR OWN RISK AND ARE
+RESPONSIBLE FOR CHECKING ITS RESULTS.
+
+Nothing in this License limits rights that you hold under mandatory provisions of
+applicable law and that cannot be limited by agreement.
+
+
+10. MISCELLANEOUS
+
+This License also applies to updates of the Software, unless an update comes with
+a different version of the License.
+
+If any provision of this License is held invalid, the remaining provisions stay in
+force. This License is the entire agreement between you and the Author regarding
+the Software.
+
+Autodesk, AutoCAD and Civil 3D are trademarks or registered trademarks of Autodesk, Inc.
+and/or its subsidiaries. The Author is not affiliated with Autodesk, Inc.

@@ -1,0 +1,25 @@
+{
+  "_note": "Update manifest for the HiTo plugin. Edit this template, never the generated version.json. Version and date are filled by the build (target SyncVersionToPackaging in HiTo.csproj); installer name and SHA-256 by Tools\\Make-Release.ps1. Publish Output\\version.json — it is the only copy carrying a real checksum. Placeholder names are not spelled out here on purpose: substitution would replace them inside this note too.",
+  "version": "2.1.4",
+  "released": "2026-10-11",
+  "pageUrl": "https://github.com/Hishwaia/HiTo-update",
+  "requires": "Civil 3D 2027 и новее",
+  "minSeries": "R26.0",
+  "autoInstall": true,
+  "installer": "HiTo Setup v2.1.4.exe",
+  "sha256": "8143fc23121b1684f77b91a90b66d5848a685a6ea376616cc8f1775daede5b05",
+  "notes": [
+    "Генератор таблиц и блоков: снятый набор можно вернуть. После «Снять», «Очистить» или Esc в сообщении есть кнопка «Вернуть».",
+    "Правки шаблона можно отменить: в подсказке над кнопкой сохранения появилась ссылка «Вернуть».",
+    "Поиск: если в разделе ничего не найдено, окно показывает, в каких разделах есть совпадения, и переходит туда одним нажатием.",
+    "«Прошлая вставка»: пустой набор предлагает вернуть элементы прошлой вставки, чтобы поправить их и вставить снова.",
+    "Общие улучшения и исправление ошибок."
+  ],
+  "notesEn": [
+    "Table & Block Generator: a cleared set can be restored. After “None”, “Clear” or Esc the message offers an “Undo” button.",
+    "Edits to a saved set can be discarded: the hint above the save button now has a “Revert” link.",
+    "Search: when nothing is found in the current category, the window shows which categories have matches and jumps there in one click.",
+    "“Last insertion”: an empty set offers to bring back the items of the last insertion, so you can adjust them and insert again.",
+    "General improvements and bug fixes."
+  ]
+}

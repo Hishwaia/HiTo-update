@@ -8,6 +8,7 @@
   "autoInstall": true,
   "installer": "HiTo Setup v2.1.4.exe",
   "sha256": "8143fc23121b1684f77b91a90b66d5848a685a6ea376616cc8f1775daede5b05",
+  "normsUrl": "https://raw.githubusercontent.com/Hishwaia/HiTo-norms/main/",
   "notes": [
     "Генератор таблиц и блоков: снятый набор можно вернуть. После «Снять», «Очистить» или Esc в сообщении есть кнопка «Вернуть».",
     "Правки шаблона можно отменить: в подсказке над кнопкой сохранения появилась ссылка «Вернуть».",

@@ -1,0 +1,24 @@
+{
+  "_note": "Update manifest for the HiTo plugin. Edit this template, never the generated version.json. Version and date are filled by the build (target SyncVersionToPackaging in HiTo.csproj); installer name and SHA-256 by Tools\\Make-Release.ps1. Publish Output\\version.json — it is the only copy carrying a real checksum. Placeholder names are not spelled out here on purpose: substitution would replace them inside this note too.",
+  "version": "2.2.1",
+  "released": "2026-10-23",
+  "pageUrl": "https://github.com/Hishwaia/HiTo-update",
+  "requires": "Civil 3D 2027 и новее",
+  "minSeries": "R26.0",
+  "autoInstall": true,
+  "installer": "HiTo Setup v2.2.1.exe",
+  "sha256": "c66982e178e4db8d8842cf1bdb29400fcd95db18797ea6c83b38b4b8094fd406",
+  "normsUrl": "https://raw.githubusercontent.com/Hishwaia/HiTo-norms/main/",
+  "notes": [
+    "Справочник норм ищет и по смыслу: «завал стены» найдёт «отклонение от вертикали стен». Модель (18 МБ) скачивается кнопкой «Искать по смыслу», когда поиск по словам ничего не нашёл; работает без сети.",
+    "Окно, кнопка и панель генератора легенд называются «Таблицы и блоки»; сохранённые составы — «наборы». Классические меню и панели — с теми же названиями, что на ленте.",
+    "Размер дугой: точность — отдельной опцией.",
+    "Общие улучшения и исправление ошибок."
+  ],
+  "notesEn": [
+    "The norms reference also searches by meaning, not just by words. The model (18 MB) is downloaded with “Search by meaning” when word search finds nothing; it works offline.",
+    "The legend generator window, button and panel are called “Tables & blocks”; saved selections are “sets”. Classic menus and toolbars use the same names as the ribbon.",
+    "Arc-line dimension: precision is a separate option.",
+    "General improvements and bug fixes."
+  ]
+}

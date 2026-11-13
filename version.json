@@ -1,0 +1,30 @@
+{
+  "_note": "Update manifest for the HiTo plugin. Edit this template, never the generated version.json. Version and date are filled by the build (target SyncVersionToPackaging in HiTo.csproj); installer name and SHA-256 by Tools\\Make-Release.ps1. Publish Output\\version.json — it is the only copy carrying a real checksum. Placeholder names are not spelled out here on purpose: substitution would replace them inside this note too.",
+  "version": "3.0.4",
+  "released": "2026-11-13",
+  "pageUrl": "https://github.com/Hishwaia/HiTo-update",
+  "requires": "Civil 3D 2027 и новее",
+  "minSeries": "R26.0",
+  "autoInstall": true,
+  "installer": "HiTo Setup v3.0.4.exe",
+  "sha256": "6c835caee58423d0bfe941ae5e12c81c2eaf6b7de7580e89f10888f93d0e76e3",
+  "normsUrl": "https://raw.githubusercontent.com/Hishwaia/HiTo-norms/main/",
+  "notes": [
+    "ПРОФИЛЬ: проектная земля берётся и с поверхности проектировщиков — переключатель «Ввод · Поверхность» в режиме «Проект»; вне поверхности отметка вводится в таблице.",
+    "ПРОФИЛЬ: дно колодца берётся из точки COGO под люком, а отметку дна можно поправить в таблице — своё число сохраняется.",
+    "ПРОФИЛЬ: линия по точкам проходит через поворотный колодец изломом по осям труб, угол поворота считается по осям труб.",
+    "ПРОФИЛЬ: линию или готовый профиль можно выделить до запуска команды, выделенные точки COGO сразу строят линию по точкам.",
+    "ПРОФИЛЬ: у кнопки на ленте появилась анимированная подсказка.",
+    "Обозначение отверстия работает на видах «Спереди», «Слева» и в повёрнутом виде: заливка ложится в плоскость контура, толстый край — в верхнем левом углу экрана.",
+    "Общие улучшения и исправление ошибок."
+  ],
+  "notesEn": [
+    "PROFILE: design ground can also come from the designers' surface — the “Input · Surface” switch in the Design mode; outside the surface the level is typed in the table.",
+    "PROFILE: the manhole bottom comes from the COGO point under the cover, and the bottom level can be edited in the table — your value is kept.",
+    "PROFILE: the line from points runs through a bend manhole with a corner on the pipe axes, and the bend angle is measured between the pipe axes.",
+    "PROFILE: a line or an existing profile can be selected before starting the command; selected COGO points go straight to the line from points.",
+    "PROFILE: the ribbon button got an animated tooltip.",
+    "Opening mark works in the Front, Left and rotated views: the fill lies in the contour's plane with the thick edge in the top-left corner of the screen.",
+    "General improvements and bug fixes."
+  ]
+}

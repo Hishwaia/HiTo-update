@@ -1,0 +1,36 @@
+name: Сообщить о проблеме
+description: Что-то работает не так или не работает вовсе
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Эта страница публичная. Диагностический пакет (.hitodiag) сюда не выкладывайте —
+        отправьте его на hitoplugin@gmail.com.
+  - type: input
+    id: hito
+    attributes:
+      label: Версия HiTo
+      description: Окно «О приложении», раздел «Сведения»
+    validations:
+      required: true
+  - type: input
+    id: civil
+    attributes:
+      label: Версия Civil 3D
+      description: Например, 2027.1 — команда ABOUT или «Справка» → «О программе»
+    validations:
+      required: true
+  - type: input
+    id: command
+    attributes:
+      label: Команда или окно
+      description: В чём именно проблема; если не знаете — оставьте пустым
+      placeholder: Создание таблиц, Сетка осей, HiTo_Calc…
+  - type: textarea
+    id: steps
+    attributes:
+      label: Что делали и что получилось
+      description: По шагам. Что ожидали увидеть и что вышло на самом деле.
+    validations:
+      required: true

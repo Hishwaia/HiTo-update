@@ -1,0 +1,11 @@
+name: Предложить улучшение
+description: Новая функция или доработка существующей
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Что хотелось бы
+      description: Какой задачи сейчас не хватает или что в имеющейся команде неудобно. Пример из вашей работы поможет понять, о чём речь.
+    validations:
+      required: true
